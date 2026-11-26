@@ -52,3 +52,19 @@ matched the scripted scenario in `data/generate_frames.py`.
 - The describer is keyword-based, so it is only as good as the description text. A real
   detector would need its own accuracy tests against labelled footage.
 - Alert thresholds are not tuned against real data.
+
+## Updated verification and edge cases
+
+The current repository test run is **40 passing tests** (captured after the updates). Added edge tests cover a large observation gap breaking loitering continuity and continuity across midnight. The loitering rule now accepts `max_observation_gap_minutes` (default 5) and resets its dwell episode if observations are farther apart than that threshold.
+
+## Benchmark (captured run)
+
+Run `python scripts/benchmark.py` from the repository root. One local run reported:
+
+| Workload | Elapsed | Throughput |
+|---:|---:|---:|
+| 288 frames | 0.0027 s | 107,874.5 frames/s |
+| 2,880 frames | 0.0265 s | 108,833.3 frames/s |
+| 14,400 frames | 0.1042 s | 138,171.3 frames/s |
+
+These are a single local synthetic run, not a production performance guarantee. It measures the in-memory pipeline with simulated descriptions and a SQLite in-memory index; it does not measure real vision inference, persistent-disk I/O, network latency or concurrent clients.

@@ -63,11 +63,14 @@ class LoiteringRule(Rule):
 
     name = "loitering"
 
-    def __init__(self, zones: Iterable[str] = ("Main Gate",), dwell_minutes: int = 10) -> None:
+    def __init__(self, zones: Iterable[str] = ("Main Gate",), dwell_minutes: int = 10,
+                 max_observation_gap_minutes: int = 5) -> None:
         self.zones = set(zones)
         self.dwell_minutes = dwell_minutes
+        self.max_observation_gap_minutes = max_observation_gap_minutes
         self._tracker = EpisodeTracker()
         self._since = 0
+        self._last_seen = None
         self._alerted = False
 
     def evaluate(self, frame: Frame, detections: list[Detection]) -> list[Alert]:
@@ -75,9 +78,14 @@ class LoiteringRule(Rule):
         has_person = any(d.label == "person" for d in detections)
         applies = has_person and t.location in self.zones and is_night(t.minute)
 
+        if applies and self._last_seen is not None:
+            gap = (t.minute - self._last_seen) % MINUTES_PER_DAY
+            if gap > self.max_observation_gap_minutes:
+                self._tracker.update(None)  # a long gap breaks continuity
         if self._tracker.update(t.location if applies else None):
             self._since = t.minute
             self._alerted = False
+        self._last_seen = t.minute if applies else None
         if not applies:
             return []
 

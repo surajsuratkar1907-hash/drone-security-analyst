@@ -62,9 +62,17 @@ def summarize_day(index: FrameIndex) -> str:
     alerts = index.list_alerts()
     labels = [r["label"] for r in index.object_summary()]
     high = sum(1 for a in alerts if a["severity"] == "high")
+    if not alerts:
+        alert_detail = "No alerts were raised."
+    else:
+        alert_detail = " Alerts: " + "; ".join(
+            f"{a['time']} {a['rule']} ({a['severity']}) at {a['location']}" for a in alerts
+        ) + "."
     return (
-        f"Over {frames} frames the agent logged {len(logs)} events "
-        f"({', '.join(labels) or 'none'}) and raised {len(alerts)} alerts ({high} high severity)."
+        f"Daily overview: {frames} frames processed; {len(logs)} event logs across "
+        f"{', '.join(labels) or 'no detected object types'}; {len(alerts)} alerts, "
+        f"including {high} high-severity."
+        + alert_detail
     )
 
 
