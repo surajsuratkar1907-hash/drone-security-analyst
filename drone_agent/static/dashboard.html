@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drone Security Analyst</title>
+<style>
+  :root {
+    --bg: #0b1220; --panel: #121b2e; --line: #1f2b45; --text: #e7edf7; --muted: #8a98b4;
+    --blue: #3b82f6; --red: #ef4444; --amber: #f59e0b; --green: #22c55e;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--text); font-size: 16px; }
+  header { display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+           padding: 14px 24px; border-bottom: 1px solid var(--line); }
+  header h1 { font-size: 22px; margin: 0; font-weight: 700; }
+  .stats { display: flex; gap: 10px; flex-wrap: wrap; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+          padding: 8px 14px; font-size: 14px; color: var(--muted); }
+  .stat b { color: var(--text); font-size: 18px; margin-left: 6px; }
+  .controls { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+  button { background: var(--blue); color: white; border: 0; border-radius: 8px;
+           padding: 9px 16px; font-size: 15px; cursor: pointer; }
+  button.ghost { background: var(--panel); border: 1px solid var(--line); color: var(--text); }
+  select { background: var(--panel); color: var(--text); border: 1px solid var(--line);
+           border-radius: 8px; padding: 8px; font-size: 15px; }
+
+  main { display: grid; grid-template-columns: 1.25fr 1fr; gap: 18px; padding: 18px 24px; }
+  .col { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+  .panel h2 { margin: 0 0 12px; font-size: 14px; letter-spacing: .08em;
+              text-transform: uppercase; color: var(--muted); }
+
+  /* camera */
+  .camera { border-radius: 12px; padding: 24px; min-height: 250px; border: 2px solid var(--line);
+            background: linear-gradient(135deg, #17233d, #0f1830); transition: background .25s, border-color .25s; }
+  .camera.alarm { background: linear-gradient(135deg, #4a0f14, #2a0a0d); border-color: var(--red);
+                  animation: pulse 1s infinite; }
+  @keyframes pulse { 50% { box-shadow: 0 0 24px rgba(239, 68, 68, .45); } }
+  .topline { display: flex; justify-content: space-between; color: var(--muted);
+             font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 15px; }
+  .desc { font-size: 28px; font-weight: 600; line-height: 1.3; margin: 20px 0; }
+  .telemetry { display: flex; gap: 26px; flex-wrap: wrap; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 17px; }
+  .telemetry span { color: var(--muted); }
+  .telemetry b { color: var(--text); }
+  .chips { margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap; min-height: 34px; }
+  .chip { padding: 6px 12px; border-radius: 999px; font-size: 15px; background: #1e3a8a; color: #dbeafe; }
+  .chip.person { background: #7c2d12; color: #fed7aa; }
+  .chip.animal { background: #14532d; color: #bbf7d0; }
+  .chip.van, .chip.car { background: #3f3f46; color: #e4e4e7; }
+  .banner { margin-top: 14px; padding: 12px 16px; border-radius: 10px; font-size: 18px; font-weight: 600; display: none; }
+  .banner.high { display: block; background: var(--red); color: white; }
+  .banner.medium { display: block; background: var(--amber); color: #1a1200; }
+
+  /* patrol map */
+  .zones { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .zone { border: 1px solid var(--line); border-radius: 10px; padding: 12px; font-size: 14px;
+          color: var(--muted); position: relative; min-height: 58px; }
+  .zone.restricted { border-style: dashed; }
+  .zone.active { border-color: var(--blue); color: var(--text); background: #16264a; }
+  .drone { position: absolute; right: 10px; top: 10px; width: 14px; height: 14px; border-radius: 50%;
+           background: var(--green); box-shadow: 0 0 12px var(--green); display: none; }
+  .zone.active .drone { display: block; }
+  .legend { color: var(--muted); font-size: 13px; margin-top: 10px; }
+
+  /* feeds */
+  .feed { height: 300px; overflow: auto; display: flex; flex-direction: column; gap: 8px; }
+  .feed.short { height: 210px; }
+  .item { padding: 10px 12px; border-radius: 9px; background: #0e1628; border: 1px solid var(--line);
+          font-size: 16px; font-family: ui-monospace, Menlo, Consolas, monospace; }
+  .item .t { color: var(--muted); margin-right: 8px; }
+  .item.alert { border-color: var(--red); background: #2a0d12; }
+  .item.alert.medium { border-color: var(--amber); background: #2a1f05; }
+  .empty { color: var(--muted); font-size: 15px; }
+
+  /* bottom */
+  .bottom { grid-column: 1 / span 2; display: grid; grid-template-columns: 2fr 1fr; gap: 18px; }
+  .timeline { display: flex; gap: 2px; align-items: flex-end; height: 74px; }
+  .tick { flex: 1; min-width: 2px; background: #24324f; height: 30%; cursor: pointer; border-radius: 2px; }
+  .tick.obj { background: var(--blue); height: 60%; }
+  .tick.alert { background: var(--red); height: 100%; }
+  .tick.cur { outline: 2px solid white; outline-offset: 1px; }
+  .hours { display: flex; justify-content: space-between; color: var(--muted); font-size: 13px;
+           margin-top: 6px; font-family: ui-monospace, Menlo, Consolas, monospace; }
+  .ask input { width: 100%; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--line);
+               background: #0e1628; color: var(--text); font-size: 16px; }
+  .presets { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+  .presets button { font-size: 13px; padding: 7px 10px; }
+  pre.answer { white-space: pre-wrap; background: #0e1628; border-radius: 10px; padding: 12px;
+               min-height: 90px; font-size: 15px; margin: 0; font-family: ui-monospace, Menlo, Consolas, monospace; }
+
+  @media (max-width: 1000px) {
+    main { grid-template-columns: 1fr; }
+    .bottom { grid-column: auto; grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Drone Security Analyst</h1>
+  <div class="stats" id="stats"></div>
+  <div class="controls">
+    <button id="play">▶ Play</button>
+    <select id="speed">
+      <option value="1200">Slow</option>
+      <option value="600" selected>Normal</option>
+      <option value="250">Fast</option>
+      <option value="80">Very fast</option>
+    </select>
+    <button class="ghost" id="reset">⟲ Reset</button>
+  </div>
+</header>
+
+<main>
+  <div class="col">
+    <section class="panel">
+      <h2>Drone camera (simulated feed)</h2>
+      <div class="camera" id="camera">
+        <div class="topline"><span id="frameNo"></span><span id="clock"></span></div>
+        <div class="desc" id="desc">Loading…</div>
+        <div class="telemetry" id="telemetry"></div>
+        <div class="chips" id="chips"></div>
+        <div class="banner" id="banner"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Patrol map</h2>
+      <div class="zones" id="zones"></div>
+      <div class="legend">Dashed = restricted zone. Green dot = where the drone is right now.</div>
+    </section>
+  </div>
+
+  <div class="col">
+    <section class="panel">
+      <h2>Live event log</h2>
+      <div class="feed" id="logs"></div>
+    </section>
+    <section class="panel">
+      <h2>Alerts</h2>
+      <div class="feed short" id="alerts"></div>
+    </section>
+  </div>
+
+  <div class="bottom">
+    <section class="panel">
+      <h2>Full day timeline (click to jump)</h2>
+      <div class="timeline" id="timeline"></div>
+      <div class="hours"><span>00:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>24:00</span></div>
+      <div class="legend">Blue = object seen · Red = alert · White outline = current frame</div>
+    </section>
+    <section class="panel ask">
+      <h2>Ask the index</h2>
+      <input id="q" placeholder="e.g. how many times did a blue truck enter today?">
+      <div class="presets">
+        <button class="ghost" data-q="what objects were in the video?">Objects</button>
+        <button class="ghost" data-q="show all truck events">Truck events</button>
+        <button class="ghost" data-q="how many times did a blue truck enter today?">Entries</button>
+        <button class="ghost" data-q="any alerts?">Alerts</button>
+        <button class="ghost" data-q="summarize the day">Summary</button>
+      </div>
+      <pre class="answer" id="answer">Pick a question above or type your own.</pre>
+    </section>
+  </div>
+</main>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const RESTRICTED = new Set(["Side Fence", "Backyard"]);
+  let D = null, cur = 0, timer = null, logsAll = [], alertsAll = [];
+
+  function esc(text) {
+    return String(text).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  async function load() {
+    D = await (await fetch("/api/data")).json();
+    logsAll = [];
+    alertsAll = [];
+    D.frames.forEach((f) => {
+      f.logs.forEach((text) => logsAll.push({ frame: f.frame_id, time: f.time, text }));
+      f.alerts.forEach((a) => alertsAll.push({ frame: f.frame_id, time: f.time, ...a }));
+    });
+    renderStats();
+    renderZones();
+    renderTimeline();
+    show(0);
+  }
+
+  function renderStats() {
+    const s = D.stats;
+    const items = [
+      ["Frames", s.frames],
+      ["Events logged", s.events],
+      ["Alerts", s.alerts],
+      ["Blue truck entries", s.blue_truck_entries],
+    ];
+    $("stats").innerHTML = items.map(([k, v]) => `<div class="stat">${k}<b>${v}</b></div>`).join("");
+  }
+
+  function renderZones() {
+    $("zones").innerHTML = D.zones.map((z) =>
+      `<div class="zone ${RESTRICTED.has(z) ? "restricted" : ""}" data-name="${esc(z)}">
+         ${esc(z)}${RESTRICTED.has(z) ? "<br><small>restricted</small>" : ""}<span class="drone"></span>
+       </div>`).join("");
+  }
+
+  function renderTimeline() {
+    $("timeline").innerHTML = D.frames.map((f, i) => {
+      const cls = f.alerts.length ? "alert" : (f.detections.length ? "obj" : "");
+      return `<div class="tick ${cls}" data-i="${i}" title="${esc(f.time + " · " + f.location)}"></div>`;
+    }).join("");
+    $("timeline").querySelectorAll(".tick").forEach((t) =>
+      t.addEventListener("click", () => { stop(); show(+t.dataset.i); }));
+  }
+
+  function show(i) {
+    cur = Math.max(0, Math.min(D.frames.length - 1, i));
+    const f = D.frames[cur];
+
+    $("frameNo").textContent = `Frame ${f.frame_id} of ${D.frames.length}`;
+    $("clock").textContent = f.time;
+    $("desc").textContent = f.description;
+    $("camera").classList.toggle("alarm", f.alerts.some((a) => a.severity === "high"));
+
+    const banner = $("banner");
+    if (f.alerts.length) {
+      banner.className = "banner " + f.alerts[0].severity;
+      banner.textContent = "⚠ " + f.alerts.map((a) => a.message).join("   •   ");
+    } else {
+      banner.className = "banner";
+      banner.textContent = "";
+    }
+
+    $("telemetry").innerHTML =
+      `<div><span>Location</span> <b>${esc(f.location)}</b></div>
+       <div><span>Altitude</span> <b>${f.altitude_m.toFixed(1)} m</b></div>
+       <div><span>Time</span> <b>${f.time}</b></div>`;
+
+    $("chips").innerHTML = f.detections.length
+      ? f.detections.map((d) =>
+          `<span class="chip ${d.label}">${esc([d.color, d.label, d.action].filter(Boolean).join(" · "))}</span>`).join("")
+      : '<span class="empty">No objects in view</span>';
+
+    document.querySelectorAll(".zone").forEach((z) =>
+      z.classList.toggle("active", z.dataset.name === f.location));
+    document.querySelectorAll(".tick").forEach((t, j) => t.classList.toggle("cur", j === cur));
+
+    const logs = logsAll.filter((l) => l.frame <= f.frame_id).slice(-60).reverse();
+    $("logs").innerHTML = logs.length
+      ? logs.map((l) => `<div class="item"><span class="t">${l.time}</span>${esc(l.text)}</div>`).join("")
+      : '<div class="empty">No events yet</div>';
+
+    const alerts = alertsAll.filter((a) => a.frame <= f.frame_id).slice().reverse();
+    $("alerts").innerHTML = alerts.length
+      ? alerts.map((a) =>
+          `<div class="item alert ${a.severity}"><span class="t">${a.time}</span>[${a.severity.toUpperCase()}] ${esc(a.message)}</div>`).join("")
+      : '<div class="empty">No alerts yet</div>';
+  }
+
+  function play() {
+    if (timer) { stop(); return; }
+    $("play").textContent = "❚❚ Pause";
+    timer = setInterval(() => {
+      if (cur >= D.frames.length - 1) { stop(); return; }
+      show(cur + 1);
+    }, +$("speed").value);
+  }
+
+  function stop() {
+    clearInterval(timer);
+    timer = null;
+    $("play").textContent = "▶ Play";
+  }
+
+  async function ask(question) {
+    $("q").value = question;
+    $("answer").textContent = "…";
+    const res = await fetch("/api/ask?q=" + encodeURIComponent(question));
+    $("answer").textContent = await res.text();
+  }
+
+  $("play").addEventListener("click", play);
+  $("reset").addEventListener("click", () => { stop(); show(0); });
+  $("speed").addEventListener("change", () => { if (timer) { stop(); play(); } });
+  document.querySelectorAll(".presets button").forEach((b) =>
+    b.addEventListener("click", () => ask(b.dataset.q)));
+  $("q").addEventListener("keydown", (e) => { if (e.key === "Enter") ask($("q").value); });
+  document.addEventListener("keydown", (e) => {
+    if (e.target.tagName === "INPUT") return;
+    if (e.code === "Space") { e.preventDefault(); play(); }
+    if (e.key === "ArrowRight") { stop(); show(cur + 1); }
+    if (e.key === "ArrowLeft") { stop(); show(cur - 1); }
+  });
+
+  load();
+</script>
+</body>
+</html>

@@ -1,0 +1,2018 @@
+[
+  {
+    "frame_id": 1,
+    "time": "00:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person standing near the main gate, looking at the fence"
+  },
+  {
+    "frame_id": 2,
+    "time": "00:05",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person standing near the main gate, looking at the fence"
+  },
+  {
+    "frame_id": 3,
+    "time": "00:10",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person standing near the main gate, looking at the fence"
+  },
+  {
+    "frame_id": 4,
+    "time": "00:15",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person standing near the main gate, looking at the fence"
+  },
+  {
+    "frame_id": 5,
+    "time": "00:20",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person standing near the main gate, looking at the fence"
+  },
+  {
+    "frame_id": 6,
+    "time": "00:25",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person checking the gate latch, still near the main gate"
+  },
+  {
+    "frame_id": 7,
+    "time": "00:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person checking the gate latch, still near the main gate"
+  },
+  {
+    "frame_id": 8,
+    "time": "00:35",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person checking the gate latch, still near the main gate"
+  },
+  {
+    "frame_id": 9,
+    "time": "00:40",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person checking the gate latch, still near the main gate"
+  },
+  {
+    "frame_id": 10,
+    "time": "00:45",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Person checking the gate latch, still near the main gate"
+  },
+  {
+    "frame_id": 11,
+    "time": "00:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 12,
+    "time": "00:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 13,
+    "time": "01:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 14,
+    "time": "01:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 15,
+    "time": "01:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 16,
+    "time": "01:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 17,
+    "time": "01:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 18,
+    "time": "01:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 19,
+    "time": "01:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 20,
+    "time": "01:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 21,
+    "time": "01:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 22,
+    "time": "01:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 23,
+    "time": "01:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 24,
+    "time": "01:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 25,
+    "time": "02:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 26,
+    "time": "02:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 27,
+    "time": "02:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 28,
+    "time": "02:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 29,
+    "time": "02:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 30,
+    "time": "02:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 31,
+    "time": "02:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 32,
+    "time": "02:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 33,
+    "time": "02:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 34,
+    "time": "02:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 35,
+    "time": "02:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 36,
+    "time": "02:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 37,
+    "time": "03:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 38,
+    "time": "03:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 39,
+    "time": "03:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 40,
+    "time": "03:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 41,
+    "time": "03:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 42,
+    "time": "03:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 43,
+    "time": "03:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 44,
+    "time": "03:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 45,
+    "time": "03:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 46,
+    "time": "03:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 47,
+    "time": "03:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 48,
+    "time": "03:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 49,
+    "time": "04:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 50,
+    "time": "04:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 51,
+    "time": "04:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 52,
+    "time": "04:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 53,
+    "time": "04:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 54,
+    "time": "04:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 55,
+    "time": "04:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 56,
+    "time": "04:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 57,
+    "time": "04:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 58,
+    "time": "04:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 59,
+    "time": "04:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 60,
+    "time": "04:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 61,
+    "time": "05:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 62,
+    "time": "05:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 63,
+    "time": "05:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 64,
+    "time": "05:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 65,
+    "time": "05:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 66,
+    "time": "05:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 67,
+    "time": "05:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 68,
+    "time": "05:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 69,
+    "time": "05:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 70,
+    "time": "05:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 71,
+    "time": "05:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 72,
+    "time": "05:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 73,
+    "time": "06:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 74,
+    "time": "06:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 75,
+    "time": "06:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 76,
+    "time": "06:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 77,
+    "time": "06:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 78,
+    "time": "06:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 79,
+    "time": "06:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 80,
+    "time": "06:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 81,
+    "time": "06:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 82,
+    "time": "06:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 83,
+    "time": "06:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 84,
+    "time": "06:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 85,
+    "time": "07:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 86,
+    "time": "07:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 87,
+    "time": "07:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 88,
+    "time": "07:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 89,
+    "time": "07:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 90,
+    "time": "07:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 91,
+    "time": "07:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 approaching the main gate"
+  },
+  {
+    "frame_id": 92,
+    "time": "07:35",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 approaching the main gate"
+  },
+  {
+    "frame_id": 93,
+    "time": "07:40",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 entering through the main gate"
+  },
+  {
+    "frame_id": 94,
+    "time": "07:45",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 driving along the driveway"
+  },
+  {
+    "frame_id": 95,
+    "time": "07:50",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 driving along the driveway"
+  },
+  {
+    "frame_id": 96,
+    "time": "07:55",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 driving along the driveway"
+  },
+  {
+    "frame_id": 97,
+    "time": "08:00",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 parked at the garage"
+  },
+  {
+    "frame_id": 98,
+    "time": "08:05",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 parked at the garage"
+  },
+  {
+    "frame_id": 99,
+    "time": "08:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 parked at the garage"
+  },
+  {
+    "frame_id": 100,
+    "time": "08:15",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 parked at the garage"
+  },
+  {
+    "frame_id": 101,
+    "time": "08:20",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 parked at the garage"
+  },
+  {
+    "frame_id": 102,
+    "time": "08:25",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 parked at the garage"
+  },
+  {
+    "frame_id": 103,
+    "time": "08:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 104,
+    "time": "08:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 105,
+    "time": "08:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 106,
+    "time": "08:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 107,
+    "time": "08:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 108,
+    "time": "08:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 109,
+    "time": "09:00",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Man in grey hoodie walking across the front lawn"
+  },
+  {
+    "frame_id": 110,
+    "time": "09:05",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Man in grey hoodie walking across the front lawn"
+  },
+  {
+    "frame_id": 111,
+    "time": "09:10",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Man in grey hoodie walking across the front lawn"
+  },
+  {
+    "frame_id": 112,
+    "time": "09:15",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Man in grey hoodie walking across the front lawn"
+  },
+  {
+    "frame_id": 113,
+    "time": "09:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 114,
+    "time": "09:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 115,
+    "time": "09:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 116,
+    "time": "09:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 117,
+    "time": "09:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 118,
+    "time": "09:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 119,
+    "time": "09:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 120,
+    "time": "09:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 121,
+    "time": "10:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 122,
+    "time": "10:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 123,
+    "time": "10:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 124,
+    "time": "10:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 125,
+    "time": "10:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 126,
+    "time": "10:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 127,
+    "time": "10:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 128,
+    "time": "10:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 129,
+    "time": "10:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 130,
+    "time": "10:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 131,
+    "time": "10:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 132,
+    "time": "10:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 133,
+    "time": "11:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 134,
+    "time": "11:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 135,
+    "time": "11:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 136,
+    "time": "11:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 137,
+    "time": "11:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 138,
+    "time": "11:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 139,
+    "time": "11:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 140,
+    "time": "11:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 141,
+    "time": "11:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 142,
+    "time": "11:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 143,
+    "time": "11:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 144,
+    "time": "11:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 145,
+    "time": "12:00",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 146,
+    "time": "12:05",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 147,
+    "time": "12:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 148,
+    "time": "12:15",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 149,
+    "time": "12:20",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 150,
+    "time": "12:25",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 151,
+    "time": "12:30",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 152,
+    "time": "12:35",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 153,
+    "time": "12:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 154,
+    "time": "12:45",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 155,
+    "time": "12:50",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 156,
+    "time": "12:55",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 157,
+    "time": "13:00",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 158,
+    "time": "13:05",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 159,
+    "time": "13:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 160,
+    "time": "13:15",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 161,
+    "time": "13:20",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 162,
+    "time": "13:25",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 spotted at garage"
+  },
+  {
+    "frame_id": 163,
+    "time": "13:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "White delivery van entering through the main gate"
+  },
+  {
+    "frame_id": 164,
+    "time": "13:35",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "White delivery van entering through the main gate"
+  },
+  {
+    "frame_id": 165,
+    "time": "13:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 166,
+    "time": "13:45",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "White delivery van parked at the driveway"
+  },
+  {
+    "frame_id": 167,
+    "time": "13:50",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "White delivery van parked at the driveway"
+  },
+  {
+    "frame_id": 168,
+    "time": "13:55",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "White delivery van parked at the driveway"
+  },
+  {
+    "frame_id": 169,
+    "time": "14:00",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Dog running across the backyard"
+  },
+  {
+    "frame_id": 170,
+    "time": "14:05",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Dog running across the backyard"
+  },
+  {
+    "frame_id": 171,
+    "time": "14:10",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Dog running across the backyard"
+  },
+  {
+    "frame_id": 172,
+    "time": "14:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Dog running across the backyard"
+  },
+  {
+    "frame_id": 173,
+    "time": "14:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 174,
+    "time": "14:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 175,
+    "time": "14:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 176,
+    "time": "14:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 177,
+    "time": "14:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 178,
+    "time": "14:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 179,
+    "time": "14:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 180,
+    "time": "14:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 181,
+    "time": "15:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 182,
+    "time": "15:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 183,
+    "time": "15:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 184,
+    "time": "15:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 185,
+    "time": "15:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 186,
+    "time": "15:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 187,
+    "time": "15:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 188,
+    "time": "15:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 189,
+    "time": "15:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 190,
+    "time": "15:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 191,
+    "time": "15:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 192,
+    "time": "15:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 193,
+    "time": "16:00",
+    "location": "Garage",
+    "altitude_m": 3.0,
+    "description": "Drone descending for a close inspection of the garage door"
+  },
+  {
+    "frame_id": 194,
+    "time": "16:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 195,
+    "time": "16:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 196,
+    "time": "16:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 197,
+    "time": "16:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 198,
+    "time": "16:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 199,
+    "time": "16:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 200,
+    "time": "16:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 201,
+    "time": "16:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 202,
+    "time": "16:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 203,
+    "time": "16:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 204,
+    "time": "16:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 205,
+    "time": "17:00",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 leaving the garage"
+  },
+  {
+    "frame_id": 206,
+    "time": "17:05",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 leaving the garage"
+  },
+  {
+    "frame_id": 207,
+    "time": "17:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Blue Ford F150 leaving the garage"
+  },
+  {
+    "frame_id": 208,
+    "time": "17:15",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 driving along the driveway"
+  },
+  {
+    "frame_id": 209,
+    "time": "17:20",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 driving along the driveway"
+  },
+  {
+    "frame_id": 210,
+    "time": "17:25",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 leaving through the main gate"
+  },
+  {
+    "frame_id": 211,
+    "time": "17:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 212,
+    "time": "17:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 213,
+    "time": "17:40",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 entering through the main gate"
+  },
+  {
+    "frame_id": 214,
+    "time": "17:45",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 215,
+    "time": "17:50",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 216,
+    "time": "17:55",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 217,
+    "time": "18:00",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 218,
+    "time": "18:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 219,
+    "time": "18:10",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 220,
+    "time": "18:15",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 221,
+    "time": "18:20",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 222,
+    "time": "18:25",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Blue Ford F150 parked at the driveway"
+  },
+  {
+    "frame_id": 223,
+    "time": "18:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 224,
+    "time": "18:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 225,
+    "time": "18:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 226,
+    "time": "18:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 227,
+    "time": "18:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 228,
+    "time": "18:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 229,
+    "time": "19:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 230,
+    "time": "19:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 231,
+    "time": "19:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 232,
+    "time": "19:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 233,
+    "time": "19:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 234,
+    "time": "19:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 235,
+    "time": "19:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 236,
+    "time": "19:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 237,
+    "time": "19:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 238,
+    "time": "19:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 239,
+    "time": "19:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 240,
+    "time": "19:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 241,
+    "time": "20:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 242,
+    "time": "20:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 243,
+    "time": "20:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 244,
+    "time": "20:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 245,
+    "time": "20:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 246,
+    "time": "20:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 247,
+    "time": "20:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 248,
+    "time": "20:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 249,
+    "time": "20:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 250,
+    "time": "20:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 251,
+    "time": "20:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 252,
+    "time": "20:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 253,
+    "time": "21:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 254,
+    "time": "21:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 255,
+    "time": "21:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 256,
+    "time": "21:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 257,
+    "time": "21:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 258,
+    "time": "21:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 259,
+    "time": "21:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, daylight, no movement"
+  },
+  {
+    "frame_id": 260,
+    "time": "21:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, daylight, no movement"
+  },
+  {
+    "frame_id": 261,
+    "time": "21:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, daylight, no movement"
+  },
+  {
+    "frame_id": 262,
+    "time": "21:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, daylight, no movement"
+  },
+  {
+    "frame_id": 263,
+    "time": "21:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, daylight, no movement"
+  },
+  {
+    "frame_id": 264,
+    "time": "21:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, daylight, no movement"
+  },
+  {
+    "frame_id": 265,
+    "time": "22:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 266,
+    "time": "22:05",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Person climbing over the side fence"
+  },
+  {
+    "frame_id": 267,
+    "time": "22:10",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Person climbing over the side fence"
+  },
+  {
+    "frame_id": 268,
+    "time": "22:15",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Person climbing over the side fence"
+  },
+  {
+    "frame_id": 269,
+    "time": "22:20",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Person walking across the backyard"
+  },
+  {
+    "frame_id": 270,
+    "time": "22:25",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Person walking across the backyard"
+  },
+  {
+    "frame_id": 271,
+    "time": "22:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 272,
+    "time": "22:35",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 273,
+    "time": "22:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 274,
+    "time": "22:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 275,
+    "time": "22:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 276,
+    "time": "22:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 277,
+    "time": "23:00",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Empty Main Gate, dim lighting, no movement"
+  },
+  {
+    "frame_id": 278,
+    "time": "23:05",
+    "location": "Driveway",
+    "altitude_m": 12.0,
+    "description": "Empty Driveway, dim lighting, no movement"
+  },
+  {
+    "frame_id": 279,
+    "time": "23:10",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 280,
+    "time": "23:15",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 281,
+    "time": "23:20",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 282,
+    "time": "23:25",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  },
+  {
+    "frame_id": 283,
+    "time": "23:30",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Car idling at the main gate with headlights on"
+  },
+  {
+    "frame_id": 284,
+    "time": "23:35",
+    "location": "Main Gate",
+    "altitude_m": 12.0,
+    "description": "Car idling at the main gate with headlights on"
+  },
+  {
+    "frame_id": 285,
+    "time": "23:40",
+    "location": "Garage",
+    "altitude_m": 15.0,
+    "description": "Empty Garage, dim lighting, no movement"
+  },
+  {
+    "frame_id": 286,
+    "time": "23:45",
+    "location": "Backyard",
+    "altitude_m": 10.0,
+    "description": "Empty Backyard, dim lighting, no movement"
+  },
+  {
+    "frame_id": 287,
+    "time": "23:50",
+    "location": "Side Fence",
+    "altitude_m": 8.0,
+    "description": "Empty Side Fence, dim lighting, no movement"
+  },
+  {
+    "frame_id": 288,
+    "time": "23:55",
+    "location": "Front Lawn",
+    "altitude_m": 12.0,
+    "description": "Empty Front Lawn, dim lighting, no movement"
+  }
+]
